@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-all{
+    height: 2000px;
+    width: 3000px;
+}
+
+.container-left{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    background-color: black;
+    
+    flex-direction: column;
+}
+
+header{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    background-color: green;
+    
+}
