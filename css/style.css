@@ -22,11 +22,62 @@ h1,h5{
 
 .container-left{
     height: 100%;
-    width: 10%;
-    
-    
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
+    gap: 20px;
+}
+
+.container-left img{
+    width: 80%;
+    
+}
+
+.selections, a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    color: grey;
+}
+
+
+#last{
+    margin-bottom: 1100px;
+}
+#crea{
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 10px;
+    
+    font-size: 20px;
+}
+
+.fa-square-plus{
+    color: white;
+    font-size: 30px;
+}
+
+.container-left h4{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+.selections img{
+    
+    width: 20px;
+    height: 20px;
+}
+span{
+    color: white;
+    font-size: 13px;
 }
 
 .top{
@@ -49,6 +100,10 @@ h1,h5{
     font-size: 15px;
 }
 
+.upgrade:hover{
+    
+    height: 50%;
+}
 main{
     width: 90%;
     height: 100%;
@@ -73,6 +128,13 @@ main{
     font-weight: bolder;
     color: #6b6d76;
     font-size: 20px;
+}
+
+.choose:hover{
+    color: white;
+    background: 
+    linear-gradient(rgb(64, 255, 0) 0 0) bottom/ 50% 2px no-repeat, 
+    rgba(255, 255, 255,0);
 }
 
 h1{
@@ -113,16 +175,15 @@ h1{
     
 }
 
-.play{
+/* .play{
     display: none;
     
-}
+} */
 
-.play:hover{
-    display: inline-block;
-    position: absolute;
+/* .card:hover{
     
-}
+    background-image: url(img/img/play-button-svgrepo-com.svg);
+} */
 .card h3{
     color: white;
     font-size: 15px;
@@ -162,4 +223,24 @@ h5{
     width: 300px;
     height: 300px;
     padding-bottom: 10px;
+}
+
+.player{
+    width: 100%;
+    height: 10vh;
+    background-color: #313131;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spaces{
+    height: 80%;
+    width: 15%;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    
 }
